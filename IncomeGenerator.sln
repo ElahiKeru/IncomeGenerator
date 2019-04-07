@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.489
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IncomeGenerator", "IncomeGenerator\IncomeGenerator.csproj", "{99F9B5D0-E0DA-4A27-BF29-C01455E5826B}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IncomeSourceLibrary", "BusinessObject\IncomeSourceLibrary.csproj", "{8E3E3D12-52BF-4566-BB83-E76644AB0EA5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{99F9B5D0-E0DA-4A27-BF29-C01455E5826B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99F9B5D0-E0DA-4A27-BF29-C01455E5826B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{99F9B5D0-E0DA-4A27-BF29-C01455E5826B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E3E3D12-52BF-4566-BB83-E76644AB0EA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E3E3D12-52BF-4566-BB83-E76644AB0EA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E3E3D12-52BF-4566-BB83-E76644AB0EA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E3E3D12-52BF-4566-BB83-E76644AB0EA5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

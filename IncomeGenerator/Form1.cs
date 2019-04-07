@@ -12,6 +12,8 @@ namespace IncomeGenerator
 {
     public partial class Form1 : Form
     {
+        public const int MissionCutoff = 14;
+
         public Form1()
         {
             InitializeComponent();
