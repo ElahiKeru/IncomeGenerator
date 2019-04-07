@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace BusinessObject
+namespace IncomeSourceLibrary
 {
     public class Business
     {
@@ -20,6 +20,16 @@ namespace BusinessObject
             DaysOperating = daysOperate;
             FullCycles = DaysOperating / maxCycle;
             RemainderDays = DaysOperating % maxCycle;
+        }
+
+        public string SimulateBusiness()
+        {
+
+        }
+
+        public override string ToString()
+        {
+            return $"{Name} | {MaintenanceCost} | {ProfitAmount}";
         }
     }
 }

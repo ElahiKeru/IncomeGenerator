@@ -19,5 +19,10 @@ namespace IncomeSourceLibrary
             Name = name;
             Modifier = Modifier;
         }
+ 
+        public override string ToString()
+        {
+            return $"{Name} | {Modifier}";
+        }
     }
 }

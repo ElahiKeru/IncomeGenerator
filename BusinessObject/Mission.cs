@@ -16,5 +16,10 @@ namespace IncomeSourceLibrary
             Difficulty = diff;
             GuildMembers = gmem;
         }
+
+        public string SimulateMission()
+        {
+
+        }
     }
 }
