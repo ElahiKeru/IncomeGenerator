@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace IncomeSourceLibrary
+﻿namespace IncomeSourceLibrary
 {
-    public class GuildMember
+    public class Adventurer
     {
         public int Modifier { get; private set; }
         public string Name { get; private set; }
@@ -14,15 +10,15 @@ namespace IncomeSourceLibrary
         /// </summary>
         /// <param name="name">string, character name</param>
         /// <param name="modifier">int, special modifier applied to their rolls</param>
-        public GuildMember(string name, int modifier)
+        public Adventurer(string name, int modifier)
         {
             Name = name;
-            Modifier = Modifier;
+            Modifier = modifier;
         }
- 
+
         public override string ToString()
         {
-            return $"{Name} | {Modifier}";
+            return $"{Name}|{Modifier}";
         }
     }
 }
