@@ -70,10 +70,13 @@ namespace IncomeGenerator
             using (StreamWriter sw = new StreamWriter(fileName))
             {
                 //determine how many missions there will be
-                int missionCount = (int)NUDDays.Value / MissionCutoff;
-                for (int i = 0; i < missionCount; i++)
+                if (advCon.Container.Count > 0)
                 {
-                    misCon.Container.Add(new Mission(100 + (i * 50), 10 + (i), advCon.Container));
+                    int missionCount = (int)NUDDays.Value / MissionCutoff;
+                    for (int i = 0; i < missionCount; i++)
+                    {
+                        misCon.Container.Add(new Mission(100 + (i * 50), 10 + (i), advCon.Container));
+                    }
                 }
 
                 //simulate business ventures
