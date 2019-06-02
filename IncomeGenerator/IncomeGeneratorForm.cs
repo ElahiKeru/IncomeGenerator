@@ -72,6 +72,9 @@ namespace IncomeGenerator
                 //determine how many missions there will be
                 if (advCon.Container.Count > 0)
                 {
+                    //reset mission container in case multiple button presses are performed.
+                    misCon.Container.Clear();
+
                     int missionCount = (int)NUDDays.Value / MissionCutoff;
                     for (int i = 0; i < missionCount; i++)
                     {
